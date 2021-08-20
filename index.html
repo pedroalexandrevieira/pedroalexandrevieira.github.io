@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>WebSite Development</title>
 	<link rel="stylesheet" href="styles.css">
+	<!--Email script-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script>
 </head>
 
 <body>
@@ -70,49 +73,72 @@
 		</div>
 
 
-			<div class="banner_image1">
-				<div class="banner_content">
-					
-				</div>
+		<div class="banner_image1">
+			<div class="banner_content">
+
 			</div>
+		</div>
+
+<aside class="bg-dark">
+		<div class="contactus" id="contactus">
+			<h1 class="title">contact</h1>
+			<p>I just met you, And this is crazy, But here's my number, So call me, maybe.</p>
 
 
-			<div class="contactus" id="contactus">
-				<h1 class="title">contact</h1>
-				<p>I just met you, And this is crazy, But here's my number, So call me, maybe.</p>
+			<form  class="contact-form" method="POST">
 
-				<form>
+				<div class="form_wrapper">
 
-					<div class="form_wrapper">
-
-						<div class="form_input">
-							<input type="text" placeholder="Name">
-						</div>
-
-						<div class="form_input">
-							<input type="text" placeholder="Email">
-						</div>
-
-						<div class="form_input">
-							<textarea placeholder="Message"></textarea> 
-							
-						</div>
-
-						<div class="btn">
-							<a href="#">Submit</a>
-						</div>
+					<div class="form_input">
+						<input type="text" placeholder="Name">
 					</div>
-				</form>
-			</div>
-				
-	
 
-			<div class="footer">
-				<a href="#">© 2021 Vieira Page </a>
-			</div>
+					<div class="form_input">
+						<input type="text" placeholder="Email">
+					</div>
+
+					
+						<textarea class="form_input" placeholder="Message"></textarea>
+
+					
+
+					<button type="submit" class="btn">Submit</button>
+						
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="footer">
+			<a href="#">© 2021 Vieira Page </a>
+		</div>
+		<script src="app.js"></script>
+</aside>
+
+	<aside class="bg-dark">
+        <div class="container text-center">
+            <div class="row">
+                <div style="padding: 12px">
+                 
+                        <input class="name form-control" type="text" placeholder="Name" /><br>
+                        <input class="email form-control" type="email" placeholder="Email" />
+                        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone
+                            else.</small>
+                        <textarea class="message form-control" name="" id="" cols="4"
+                            placeholder="Say something nice 2 me your beautiful thing."></textarea>
+                        <button type="submit" class="btn btn-warning btn-small btn-block">Submit</button>
+                    </form>
+                </div>
+            
+            </div>
+        </div>
+    </aside>
 
 	
-	</div>	
-	
+</div>
+
 </body>
+
 </html>
+
+	
