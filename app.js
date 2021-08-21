@@ -18,10 +18,10 @@ function submitForm(e){
 function sendEmail(name, email, message) {
     Email.send({
         Host: "smtp.gmail.com",
-        Username: "pedro.piresvieira1@gmail.com",
+        Username: "pedro.piresvieira@outlook.pt",
         Password: "swunraxichyvbhoq",
         To: 'pedro.piresvieira@outlook.pt',
-        From: "pedro.piresvieira1@gmail.com",
+        From: "pedro.piresvieira@outlook.pt",
         Subject: `${name} send you a message from your Website`,
         Body: `Name: ${name} <br/> Email: ${email} <br/>
         Message: ${message}`,
