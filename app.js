@@ -20,7 +20,7 @@ function sendEmail(name, email, message) {
         Host: "smtp.gmail.com",
         Username: "pedro.piresvieira1@gmail.com",
         Password: "swunraxichyvbhoq",
-        To: 'pedro.piresvieira1@gmail.com',
+        To: 'pedro.piresvieira@outlook.pt',
         From: "pedro.piresvieira1@gmail.com",
         Subject: `${name} send you a message from your Website`,
         Body: `Name: ${name} <br/> Email: ${email} <br/>
