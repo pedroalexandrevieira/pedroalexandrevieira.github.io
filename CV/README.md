@@ -1,2 +1,13 @@
-# CV Pedro Vieira
-My personal CV
+# Vieira Page
+
+My Personal website 
+
+
+**Technologies:**
+
+`HTML`
+`CSS `
+`JavaScript`
+ 
+
+Under development
