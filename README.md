@@ -1,2 +1,13 @@
 # Vieira Page
-Personal website using HTML, CSS and JavaScript.
+
+My Personal website 
+
+
+**Technologies:**
+
+`HTML`
+`CSS `
+`JavaScript`
+ 
+
+Under development
