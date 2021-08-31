@@ -7,7 +7,7 @@ Its purpose is to make known my profile and my work.
 **Technologies:**
 
 `HTML`
-`CSS `
+`CSS`
 `JavaScript`
  
 
