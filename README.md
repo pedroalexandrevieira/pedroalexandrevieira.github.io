@@ -1,6 +1,7 @@
 # Vieira Page
 
-My Personal website 
+This project is my Personal website. 
+Its purpose is to make known my profile and my work.
 
 
 **Technologies:**
