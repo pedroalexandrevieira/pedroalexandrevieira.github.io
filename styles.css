@@ -150,10 +150,10 @@ p{
 	resize: none;
 	border: 1px solid  #ccc;
 }
-/*picture badCode */
+/*picture ContactMe */
 
 .banner_image1{
-background: url('images/RC.png') no-repeat top center;
+background: url('images/ContactMe.png') no-repeat top center;
 background-size: cover;
 width: 100%;
 height: 600px;
