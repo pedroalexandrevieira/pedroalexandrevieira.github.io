@@ -13,15 +13,13 @@ function submitForm(e){
     document.querySelector(".contact-form").reset();
 }
 
-
-
 function sendEmail(name, email, message) {
     Email.send({
         Host: "smtp.gmail.com",
-        Username: "pedro.piresvieira1@gmail.pt",
+        Username: "pedro.piresvieira1@gmail.com",
         Password: "swunraxichyvbhoq",
-        To: 'pedro.piresvieira1@gmail.pt',
-        From: "pedro.piresvieira1@gmail.pt",
+        To: 'pedro.piresvieira1@gmail.com',
+        From: "pedro.piresvieira1@gmail.com",
         Subject: `${name} send you a message from your Website`,
         Body: `Name: ${name} <br/> Email: ${email} <br/>
         Message: ${message}`,
