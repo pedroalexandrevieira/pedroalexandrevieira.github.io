@@ -2,104 +2,110 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>WebSite Development</title>
 	<link rel="stylesheet" href="styles.css">
 	<!--Email script-->
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="app.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="app.js"></script>
 </head>
 <body>
-	<div class="main_container" id="home">
-		<div class="navbar">
-			<div class="logo">
-				<a href="#">Vieira Page</a>
+<div class="main_container" id="home">
+	<div class="navbar">
+		<div class="logo">
+			<a href="#">Vieira Page</a>
+		</div>
+		<div class="navbar_items">
+			<ul>
+				<li><a href="CV.pdf/CV PedroVieira.pdf">VIEW CV</a></li>
+				<li><a href="CV.pdf/CV PedroVieira.pdf" target="_blank" class="link" download>DOWNLOAD CV</a></li>
+				<li><a href="https://www.linkedin.com/in/pedroalexandrevieira/">LinkedIn</a></li>
+				<li><a href="https://github.com/pedroalexandrevieira">Github</a></li>
+				<li><a href="#contactus">Contacts</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner_image">
+		<div class="banner_content">
+			<h1>Pedro Vieira<br> <span>Software Developer</span></h1>
+		</div>
+	</div>
+	<div class="about" id="about">
+		<h1 class="title">About</h1>
+		<p>Son of the 90's. People, tech, animal and sport lover.
+			I learn very fast, and I'm striving to become the best software developer I can possibly be!
+			My experience as a developer has been very good.
+			First as a Full-Stack Developer in Santander totta WebSite. The second one have been
+			in Capgemini Engineering.
+			In both places my main responsibilities are creating new features and doing
+			the maintenance of the old ones.
+		</p>
+	</div>
+	<div class="services" id="services">
+		<h1 class="title">my Services</h1>
+		<p>You should join me so we can create beautiful adventures!</p>
+		<div class="diff_services">
+			<div class="diff_services_item">
+				<img src="images/services-1.png" alt="service_image">
+				<h3 class="sub_title">Web Developer</h3>
 			</div>
-			<div class="navbar_items">
-				<ul>
-					<li><a href="CV.pdf/CV PedroVieira.pdf">VIEW CV</a></li>
-					<li><a href="CV.pdf/CV PedroVieira.pdf" target="_blank" class="link"  download>DOWNLOAD CV</a></li>
-					<li><a href="https://www.linkedin.com/in/pedroalexandrevieira/">LinkedIn</a></li>
-					<li><a href="https://github.com/pedroalexandrevieira">Github</a></li>
-					<li><a href="#contactus">Contacts</a></li>
-				</ul>
+			<div class="diff_services_item">
+				<img src="images/services-2.png" alt="service_image">
+				<h3 class="sub_title">Back-End Developer</h3>
+			</div>
+			<div class="diff_services_item">
+				<img src="images/services-3.png" alt="service_image">
+				<h3 class="sub_title">Full-Stack Developer</h3>
 			</div>
 		</div>
-		<div class="banner_image">
-			<div class="banner_content">
-				<h1>Pedro Vieira<br> <span>Software Developer</span></h1>
-			</div>
-		</div>
-		<div class="about" id="about">
-			<h1 class="title">About</h1>
-				<p>Son of the 90's. People, tech, animal and sport lover.
-					I learn very fast, and I'm striving to become the best software developer I can possibly be!
-					My experience as a developer has been very good.
-					First as a Full-Stack Developer in Santander totta WebSite. The second one have been
-					in Capgemini Engineering.
-					In both places my main responsibilities are creating new features and doing
-					the maintenance of the old ones.
-				</p>
-		</div>
-		<div class="services" id="services">
-			<h1 class="title">my Services</h1>
-				<p>You should join me so we can create beautiful adventures!</p>
-				<div class="diff_services">
-					<div class="diff_services_item">
-						<img src="images/services-1.png" alt="service_image">
-						<h3 class="sub_title">Web Developer</h3>
+	</div>
+	<div class="banner_image1">
+		<div class="banner_content"></div>
+		<div class="contactus" >
+			<h1 class="title">Contact me</h1>
+			<p>I will get back to you as soon as possible!</p>
+			<form class="contact-form" method="POST">
+				<div class="form_wrapper">
+					<div class="form_input">
+						<input class="name form-control" type="text" placeholder="Name">
 					</div>
-					<div class="diff_services_item">
-						<img src="images/services-2.png" alt="service_image">
-						<h3 class="sub_title">Back-End Developer</h3>
+					<div class="form_input">
+						<input class="email form-control" type="text" placeholder="Email">
 					</div>
-					<div class="diff_services_item">
-						<img src="images/services-3.png" alt="service_image">
-						<h3 class="sub_title">Full-Stack Developer</h3>
+					<div class="textarea">
+									<textarea class="message form-control" placeholder="Message" style="padding: 12px 20px;
+									width: 250px;"></textarea>
+						<p></p>
 					</div>
 				</div>
-		</div>
-		<div class="banner_image1">
-			<div class="banner_content"></div>
-				<div class="contactus" id="contactus">
-					<h1 class="title">contacts</h1>
-					<p>I will get back to you as soon as possible!</p>
-					<p>Email: Pedro.PiresVieira@outlook.pt</p>
-					<p>Phone Number: (+351) 916849502</p>
-						<form  class="contact-form" method="POST">
-							<div class="form_wrapper">
-								<div class="form_input">
-									<input class="name form-control" type="text" placeholder="Name">
-								</div>
-								<div class="form_input">
-									<input class="email form-control" type="text" placeholder="Email">
-								</div>
-								<div class="textarea">
-									<textarea class="message form-control"  placeholder="Message" style="padding: 12px 20px;
-									width: 250px;"></textarea><p></p>
-								</div>
-							</div>
-							<div>
-								<button style="width: 180px;
+				<div>
+					<button style="width: 180px;
 								height: 35px;
 								line-height: 35px;
 								border: 2px solid #fb2274;
 								color: #fb2274;
 								display: block;
 								margin: 25px auto 0;
-								text-align: center">Submit</button>
-							</div>
-						</form>
+								text-align: center">Submit
+					</button>
 				</div>
-			</div>
+			</form>
 		</div>
 	</div>
-	</div>
-		<div class="footer">
-			<a href="#">© 2022 Vieira Page </a>
+	<div id="contactus">
+
+		<div class="about" id="Feel free to contact me!">
+			<h1 class="title">Contacts</h1>
+			<p>Email: Pedro.PiresVieira@outlook.pt</p>
+			<p>Phone Number: (+351) 916 849 502</p>
 		</div>
-		<script src="app.js"></script>
-	</div>	
+	</div>
+
+</div>
+<div class="footer">
+	<a href="#">© 2022 Vieira Page </a>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
 
