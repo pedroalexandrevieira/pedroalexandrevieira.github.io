@@ -1,4 +1,4 @@
-package com.example.BelicaAssassinaGame.sprites;
+package BelicaAssassinaGame.sprites;
 
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 

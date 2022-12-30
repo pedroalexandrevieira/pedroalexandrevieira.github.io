@@ -1,11 +1,11 @@
-package com.example.BelicaAssassinaGame.utils;
+package BelicaAssassinaGame.utils;
 
-import org.academiadecodigo.maindalorians.sprites.Enemy;
-
-import static org.academiadecodigo.maindalorians.utils.Configs.*;
+import BelicaAssassinaGame.sprites.Enemy;
 
 import java.util.LinkedList;
 import java.util.Queue;
+
+import static BelicaAssassinaGame.utils.Configs.ENEMY_POOL_STARTING_SIZE;
 
 public class EnemyPool {
     private final Queue<Enemy> pool;

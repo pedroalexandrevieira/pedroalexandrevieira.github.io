@@ -1,8 +1,9 @@
-package com.example.BelicaAssassinaGame.utils;
+package BelicaAssassinaGame.utils;
 
-import org.academiadecodigo.maindalorians.sprites.Shot;
+import BelicaAssassinaGame.sprites.Shot;
 
-import static org.academiadecodigo.maindalorians.utils.Configs.*;
+import static BelicaAssassinaGame.utils.Configs.*;
+
 
 import java.util.LinkedList;
 import java.util.Queue;

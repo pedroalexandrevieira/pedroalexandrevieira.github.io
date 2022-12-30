@@ -1,8 +1,9 @@
-package com.example.BelicaAssassinaGame.sprites;
+package BelicaAssassinaGame.sprites;
 
-import org.academiadecodigo.maindalorians.utils.ShotPool;
+import BelicaAssassinaGame.utils.ShotPool;
 
-import static org.academiadecodigo.maindalorians.utils.Configs.*;
+import static BelicaAssassinaGame.utils.Configs.*;
+
 
 public class Player extends Sprite {
 

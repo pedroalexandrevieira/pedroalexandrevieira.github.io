@@ -9,6 +9,7 @@ Its purpose is to show my profile and my work.
 `HTML`
 `CSS`
 `JavaScript`
+`Java`
 
 
 

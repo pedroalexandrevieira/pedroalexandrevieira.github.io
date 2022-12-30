@@ -1,9 +1,10 @@
-package com.example.BelicaAssassinaGame.phases;
+package BelicaAssassinaGame.phases;
 
-import com.example.BelicaAssassinaGame.sprites.Enemy;
-import com.example.BelicaAssassinaGame.sprites.Player;
-import com.example.BelicaAssassinaGame.sprites.Shot;
-import com.example.BelicaAssassinaGame.utils.EnemyPool;
+import BelicaAssassinaGame.sprites.Enemy;
+import BelicaAssassinaGame.sprites.Player;
+import BelicaAssassinaGame.sprites.Shot;
+import BelicaAssassinaGame.utils.EnemyPool;
+import BelicaAssassinaGame.utils.ShotPool;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
@@ -11,8 +12,7 @@ import org.academiadecodigo.simplegraphics.pictures.Picture;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-import static com.example.BelicaAssassinaGame.utils.Configs.GAME_BACKGROUND;
-import static com.example.BelicaAssassinaGame.utils.Configs.STARTING_ENEMIES;
+import static BelicaAssassinaGame.utils.Configs.*;
 
 
 public class Game implements KeyboardHandler {

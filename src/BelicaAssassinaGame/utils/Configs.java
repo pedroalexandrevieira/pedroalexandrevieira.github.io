@@ -1,4 +1,4 @@
-package com.example.BelicaAssassinaGame.utils;
+package BelicaAssassinaGame.utils;
 
 public class Configs {
     //gameStart-phase related

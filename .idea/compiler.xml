@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2000" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -8,19 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="pedroalexandrevieira.github.io" />
       </profile>
-      <profile name="Annotation profile for Unknown" enabled="true">
-        <sourceOutputDir name="../../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="wrapper" />
-      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17">
-      <module name="pedroalexandrevieira.github.io" target="16" />
-      <module name="wrapper" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="pedroalexandrevieira.github.io" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pedroalexandrevieira.github.io" options="-parameters" />
     </option>

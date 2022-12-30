@@ -1,10 +1,10 @@
-package com.example.BelicaAssassinaGame.phases;
+package BelicaAssassinaGame.phases;
 
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 import org.academiadecodigo.simplegraphics.pictures.Picture;
 
-import static org.academiadecodigo.maindalorians.utils.Configs.*;
+import static BelicaAssassinaGame.utils.Configs.*;
 
 public class GameOver implements KeyboardHandler {
 

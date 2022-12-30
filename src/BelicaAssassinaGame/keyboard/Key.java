@@ -1,4 +1,4 @@
-package com.example.BelicaAssassinaGame.keyboard;
+package BelicaAssassinaGame.keyboard;
 
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
