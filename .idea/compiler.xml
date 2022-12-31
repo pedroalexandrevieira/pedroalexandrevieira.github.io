@@ -10,8 +10,8 @@
         <module name="pedroalexandrevieira.github.io" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="pedroalexandrevieira.github.io" target="8" />
+    <bytecodeTargetLevel target="17">
+      <module name="pedroalexandrevieira.github.io" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
