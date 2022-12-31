@@ -148,9 +148,6 @@ v
 F.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_2.xml,2/b/2b83cbaa32630bb1265814184918933f1e1f9757
 r
 Bsrc/main/java/com/example/BelicaAssassinaGame/utils/EnemyPool.java,2/3/2381e9fc265464ee23150634146291c60298facc
-:
-
-index.html,f/6/f6013a00b362253c64368d6eebc50ea2131754e2
 o
 ?src/main/java/com/example/BelicaAssassinaGame/keyboard/Key.java,5/5/55349be716f9a67de980ededfc855d8fedcdde9b
 q
