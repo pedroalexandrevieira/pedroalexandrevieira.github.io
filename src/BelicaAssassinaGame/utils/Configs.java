@@ -26,7 +26,7 @@ public class Configs {
 
     //Shot related
     public static final String SHOT_IMAGE_PATH = "resources/fireshot.png";
-    public static final int SHOT_SPEED = 10;
+    public static final int SHOT_SPEED = 30;
 
     //EnemyPool related
     public static final int ENEMY_POOL_STARTING_SIZE = 30;

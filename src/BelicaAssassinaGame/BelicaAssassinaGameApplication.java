@@ -1,5 +1,6 @@
 package BelicaAssassinaGame;
 
+
 import BelicaAssassinaGame.keyboard.KeyboardManager;
 import BelicaAssassinaGame.phases.Game;
 import BelicaAssassinaGame.phases.GameOver;
@@ -18,7 +19,9 @@ public class BelicaAssassinaGameApplication {
 
 		startPhase.execute();
 
-		while(true){
+		boolean running = true;
+
+		while(running){
 			keyboardManager.setActiveHandler(game);
 			game.execute();
 			keyboardManager.setActiveHandler(gameOver);
