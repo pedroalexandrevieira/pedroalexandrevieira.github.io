@@ -5,9 +5,6 @@ O
 Back-End/src/dataEmailBean.java,9/f/9fce69ef5c36de4e1b1d6716d34766cb5c3188b0
 <
 sendEmail.js,4/4/442f113d2d53288516e31337279110996b4d8a18
-:
-
-styles.css,0/1/01397909c5f00e9fa017aa0ff73335d37fecc70f
 y
 I.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_4.xml,4/0/40dd0f48664c45b6bcb8189e4c168d8604ffa7cb
 {
@@ -104,12 +101,11 @@ o
 +src/BelicaAssassinaGame/sprites/Sprite.java,f/8/f89205592c5964663b8470de3245d164c7d5077b
 Z
 *src/BelicaAssassinaGame/sprites/Enemy.java,c/8/c862a312fbd65574c72d86529fb58a3a5a7f8cf9
-:
-
-index.html,f/6/f6013a00b362253c64368d6eebc50ea2131754e2
 Y
 )src/BelicaAssassinaGame/phases/Start.java,f/d/fd07e5053b0043c26e0298bf3e04e297e707a2e6
 Y
 )src/BelicaAssassinaGame/sprites/Shot.java,0/f/0f8e10315bd16dd53cdeaa37202d803449acc417
 [
 +src/BelicaAssassinaGame/utils/ShotPool.java,f/c/fc090a03fd335dd6a630bec97c4302f1b1964dab
+X
+(src/BelicaAssassinaGame/phases/Game.java,9/5/95fa1b2950fb761849efde7f908d6dbad3c36aa8

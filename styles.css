@@ -73,7 +73,7 @@ p{
 
 /* banner_image */
 .banner_image{
-	background: url('images/p3.jpg') no-repeat top center;
+	background: url('resources/p3.jpg') no-repeat top center;
 	background-size: cover;
 	width: 100%;
 	height: 600px;
@@ -153,7 +153,7 @@ p{
 /*picture ContactMe */
 
 .banner_image1{
-background: url('images/ContactMe.png') no-repeat top center;
+background: url('resources/ContactMe.png') no-repeat top center;
 background-size: cover;
 width: 100%;
 height: 600px;
